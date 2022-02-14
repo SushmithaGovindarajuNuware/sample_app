@@ -13,8 +13,9 @@ class UsersController < ApplicationController
   	@user = User.new(user_params)
 		#@user = User.new(params[:user]) # Not the final implementation!
 		if @user.save
-			redirect_to @user
+			log_in @user
 			flash[:success] = "Welcome to the Sample App!"
+			redirect_to @user
 			# Handle a successful save.
 		else
 			render 'new', status: 400

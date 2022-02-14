@@ -82,3 +82,5 @@ end
 
 #testing
 gem 'rails-controller-testing'
+
+gem 'cssbundling-rails'
