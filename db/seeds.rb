@@ -12,7 +12,8 @@ require "faker"
 User.create!(name: "Example User1",
 			 email: "example@railstutorial.org",
 			 password: "foobar", 
-			 password_confirmation: "foobar")
+			 password_confirmation: "foobar",
+			 admin: true)
 
 
 # Generate a bunch of additional users.
