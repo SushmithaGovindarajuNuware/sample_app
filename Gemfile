@@ -89,4 +89,7 @@ end
 #testing
 gem 'rails-controller-testing'
 
-gem 'cssbundling-rails'
+#gem 'cssbundling-rails'
+
+#gem 'jquery-rails'
+
